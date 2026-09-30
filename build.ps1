@@ -6,3 +6,5 @@ dotnet publish LexBuilder -c Release -r win-x64 --self-contained true `
 
 Copy-Item README.md $publishFolder
 Copy-Item Replace-Wubi.ps1 $publishFolder
+
+Compress-Archive -Path "$publishFolder/*" -DestinationPath "LexBuilder/bin/Release/win-x64.zip"
