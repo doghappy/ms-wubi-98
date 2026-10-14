@@ -8,7 +8,7 @@ Windows 自带的微软五笔默认使用 86 版五笔码表，对习惯 98 版�
 
 ## 使用方法
 
-建议使用项目提供的 Windows 发布包。发布包内含转换器、默认码表和替换脚本
+建议从 [GitHub Releases](https://github.com/doghappy/ms-wubi-98/releases) 下载最新 Windows 发布包。发布包内含转换器、默认码表和替换脚本。
 
 1. 将发布包解压到一个普通文件夹。
 2. **先备份**系统原文件 `%windir%\InputMethod\CHS\ChsWubiNew.lex`，以便需要时恢复。
